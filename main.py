@@ -61,10 +61,10 @@ class Main:#this is the main class
             print(result)
 #creating a function run and using this function to call the defined compute function
     def run(self):
-        employees_data = self.read_data('data/employees.txt')#Reading the file employees.txt stored in folder name data and keeping in employees_data
+        employees_data = self.read_data('employees.txt')#Reading the file employees.txt stored in folder name data and keeping in employees_data
         employees = self.parseEmployees(employees_data)#calling the functionparseEmployee to pass the values into employees dictionary
         
-        employee_work_data = self.read_data('data/hours.txt')#Reading the data from file hours.txt stored in data folder and keeping it Employee_work_data
+        employee_work_data = self.read_data('hours.txt')#Reading the data from file hours.txt stored in data folder and keeping it Employee_work_data
         self.compute(employees, employee_work_data)#calling the compute function by using the arguements employees and employee_work_data
         #This is the python program for test case methods
 
