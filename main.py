@@ -1,6 +1,6 @@
 
 #we are importing from Employee module(Employee.py) class Employee
-import unittest #We are importing the unittest
+import unittest #We are importing the unittest 
 class Employee:
     #Craeating constructor with attributes staffId,lastName,firstName,reghours,hourlyRate,otMultiple,taxCredit,standardBand
     def __init__(self, staffId, lastName, firstName, regHours, hourlyRate, otMultiple, taxCredit, standardBand) -> None:
